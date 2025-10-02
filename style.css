@@ -1,0 +1,119 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1a1a1a, #3d0000);
+    color: #f5f5f5;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ff1e1e;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2, h3 {
+    margin: 25px 0 15px;
+    color: #ffd700;
+}
+
+/* Texto */
+p {
+    margin: 15px auto;
+    max-width: 700px;
+    font-size: 1.1rem;
+}
+
+/* Imagens */
+img {
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+    max-width: 250px;
+}
+
+/* Listas */
+ol, ul {
+    margin: 15px auto;
+    padding-left: 40px;
+    max-width: 600px;
+    text-align: left;
+}
+li { margin-bottom: 8px; }
+
+/* Tabelas */
+table {
+    width: 80%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+thead {
+    background: #ff1e1e;
+    color: #fff;
+}
+tbody tr:nth-child(even) { background: #f9f9f9; color: #000; }
+tbody tr:nth-child(odd) { background: #fff; color: #000; }
+td, th { padding: 12px; }
+
+/* Links */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 14px;
+    background: #ff1e1e;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+a:hover { background: #cc0000; }
+
+/* Formulário */
+form {
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    text-align: left;
+}
+form label { font-weight: bold; margin: 10px 0 5px; display: block; }
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+button {
+    background: #ff1e1e;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover { background: #cc0000; }
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
